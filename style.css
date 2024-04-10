@@ -1,0 +1,171 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.uniquifier {
+  font-family: "M PLUS 1 Code", monospace;
+
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px -2px#000000;
+  border: 1px black;
+
+  list-style: none;
+}
+.mail {
+  text-decoration: none;
+  color: white;
+}
+.listitems {
+  list-style: none;
+}
+header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 40px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  list-style: none;
+  border: dashed;
+}
+header ul {
+  display: flex;
+  padding: 10px 10px;
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+
+.fa-solid {
+  padding: 0 10px;
+}
+.hero {
+  position: relative;
+  background-color: hsl(240, 4%, 5%);
+}
+.hero img {
+  height: 300px;
+}
+.rond {
+  border-radius: 100%;
+  border: solid black;
+  width: 100%;
+}
+.papacard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000000;
+}
+.card {
+  border-radius: 20px;
+  border: solid rgb(246, 225, 225);
+  display: flex;
+  background-color: hsl(0, 31%, 90%);
+  padding: 5px 5px;
+  color: black;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 2px hsl(0, 0%, 100%);
+  margin: 25px 25px;
+  border-color: black;
+  width: 40%;
+}
+
+.cardtexte {
+  padding: 10px 10px;
+
+  border: none;
+  color: black;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img {
+  border-radius: 20px;
+  height: 50%;
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.aligneitems {
+  align-items: center;
+}
+.margin {
+  padding: 20px 20px;
+}
+.intro {
+  border: solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #514f4f;
+}
+.bonjour {
+  width: 30%;
+
+  padding: 0 5px;
+  font-size: 50px;
+}
+
+.bienvenue {
+  font-size: 30px;
+  width: 30%;
+  margin: 0 0 0 100px;
+  padding: 0 5px;
+}
+h1 {
+  font-size: larger;
+
+  text-align: left;
+  padding: 0 5px;
+  font-size: 25px;
+}
+.contact {
+  padding: 0 5px;
+  list-style: none;
+  font-size: 30px;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 20px 0;
+  font-size: 150px;
+  background-color: #000000;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.papaqualité {
+  background-color: #000000;
+  padding: 10px;
+}
+
+.filsqualité {
+  border: solid #000000;
+  width: 10%;
+  height: 100px;
+  font-size: x-large;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 2px 1px hsl(0, 0%, 100%);
+}
