@@ -29,13 +29,17 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 40px;
+  height: 70px;
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 10;
   list-style: none;
   border: dashed;
+  align-items: center;
+}
+header img {
+  height: 70px;
 }
 header ul {
   display: flex;
@@ -146,6 +150,7 @@ h1 {
   margin: 20px 0;
   font-size: 150px;
   background-color: #000000;
+  color: white;
 }
 h3 {
   display: flex;
@@ -163,9 +168,68 @@ h3 {
   width: 10%;
   height: 100px;
   font-size: x-large;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 31%, 90%);
   margin: auto;
   text-align: center;
   padding: 10px;
   box-shadow: 2px 2px 1px hsl(0, 0%, 100%);
+}
+.papaparcours {
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.filsparcours {
+  border: solid #ffffff;
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 2px 2px 1px hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 0%);
+  height: 200px;
+  color: hsl(0, 0%, 100%);
+}
+h4 {
+  padding: 10px 10px;
+  font-size: 20px;
+  text-align: left;
+  text-justify: auto;
+  text-decoration: underline;
+}
+.textqualité {
+  font-size: 12px;
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  border: dashed;
+  height: 100px;
+
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+}
+footer img {
+  height: 99px;
+  object-fit: cover;
+  padding-left: 100px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 20px;
+}
+.moi {
+  border-radius: 20px;
+  border: solid #000000;
+  object-fit: cover;
+}
+footer p {
+  padding: 0 40px;
 }
